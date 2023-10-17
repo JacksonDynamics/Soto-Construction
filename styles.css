@@ -45,7 +45,13 @@ h1 {
     color: rgba(255, 0, 0, 0.795);
     margin: 0;
     line-height: 1.125;
-    
+}
+
+.services-title {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
 .subheading {
@@ -215,6 +221,10 @@ header {
     h1,
     h2 {
         text-align: initial;
+    }
+
+    h2 {
+        margin: 30px 0 0;
     }
 
     header {
